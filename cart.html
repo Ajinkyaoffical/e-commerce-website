@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecommerce</title>
+        <link rel="icon" type="image/x-icon" href="./img/logo (2).png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo (2).png" class="logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a class="active" href="cart.html"><i class='bx bx-shopping-bag' ></i></a></li>
+                    <a href="#" id="close"><i class='bx bx-x'></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class='bx bx-shopping-bag' ></i></a>
+                <i id="bar" class='bx bx-menu'></i>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#let's_talk</h2>
+            <p>LEAVE A MESSAGE, We love to hear from you!</p>
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class='bx bx-x-circle'></i></td>
+                        <td><img src="img/f1 shirt.jpg " alt=""></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td>₹2499</td>
+                        <td><input type="number" value="#"></td>
+                        <td>₹2499</td>
+                    </tr>
+                    <!--<tr>
+                        <td><i class='bx bx-x-circle'></i></td>
+                        <td><img src="img/f5 shirt.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td>₹2499</td>
+                        <td><input type="number" value="#"></td>
+                        <td>₹2499</td>
+                    </tr>
+                    <tr>
+                        <td><i class='bx bx-x-circle'></i></td>
+                        <td><img src="img/f8 shirt.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td>₹2499</td>
+                        <td><input type="number" value="#"></td>
+                        <td>₹2499</td>
+                    </tr><-->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3>Cart Total</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td >₹2499</td>
+                    </tr>
+                    <tr>
+                        <td>Discount Coupon</td>
+                        <td>₹499</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>₹2000</strong></td>
+                    </tr>
+                </table>
+                <button class="normal"><a href="payment.html">Proceed to checkout</a></button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo (2).png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>TQ + Dist Buladana Maharatra </p>
+                <p><strong>Phone:</strong>  +91 2124578236 / (+91) 9546148754</p>
+                <p><strong>Hours:</strong>10:00Am - 10:00 Pm, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class=' bx bxl-facebook'></i>
+                        <i class='bx bxl-twitter' ></i>
+                        <i class='bx bxl-instagram' ></i>
+                        <i class='bx bxl-pinterest-alt' ></i>
+                        <i class='bx bxl-youtube' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Devlivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4> My Account</h4>
+                <a href="login-register.html">Sign In</a>
+                <a href="cart.html">View Cart</a>
+                <a href="sproduct.html">My Wishlist</a>
+                <a href="contact.html">Track My Order</a>
+                <a href="contact.html">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/app.jpg" alt="">
+                    <img src="img/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/payment.png" alt="">
+            </div>
+
+            
+        </footer>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
